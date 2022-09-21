@@ -1,0 +1,48 @@
+body {
+  background-image: url('background.jpg');
+  background-position: center; 
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.items{
+	width: 214px;
+    height: 282px;
+	border: none;
+	background-color: transparent;
+    background-image: url('items3.png');
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.helper{
+	height: 250px;
+	width: 100%;
+	max-width: 800px;
+	margin: 30px auto;
+	position: relative;
+}
+
+#choice{
+	width: 80%;
+	max-width: 600px;
+	margin: 15px auto;
+	text-align: center;
+	background-color: white;
+	font-weight: bold;
+}
+#computerChoice{
+	position: absolute;
+	bottom:0;
+	left: 33%;
+	text-align: center;
+	font-weight: bold;
+}
+
+#result{
+	text-align: center;
+	font-weight: bold;
+	color: brown;
+	font-size: 150px;
+}
